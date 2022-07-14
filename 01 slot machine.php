@@ -297,5 +297,5 @@ while (true) {
             break;
         default:
             exit;
-    };
+    }
 }
