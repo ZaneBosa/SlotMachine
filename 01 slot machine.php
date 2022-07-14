@@ -261,8 +261,8 @@ while (true) {
             echo "You have {$wallet} EUR in your wallet" . PHP_EOL;
             echo "Choose your bet:" . PHP_EOL;
             echo "0.10" . PHP_EOL;
-            echo "0.15" . PHP_EOL;
             echo "0.20" . PHP_EOL;
+            echo "0.30" . PHP_EOL;
 
             $bet = (float) readline("Enter your bet: ");
             if($bet == null || $bet <= 0){
